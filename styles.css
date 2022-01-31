@@ -63,7 +63,7 @@ body{
   justify-content: space-between;
 }
 
-.card__meta > div{
+.card__meta > div{ /*price and time limit containers*/
   display: flex;
   align-items: center;
   gap: .5em;
@@ -90,3 +90,6 @@ body{
 .card__artist .artist{
   color: var(--white);
 }
+
+.attribution { font-size: .6em; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

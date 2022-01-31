@@ -7,44 +7,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 
 <body>
-  <div class="card">
-    <img src="images/image-equilibrium.jpg" alt="nft">
-    
-    <div class="card__details">
-      <!-- text -->
-      <div class="card__text">
-        <h2>Equilibrium #3429</h2>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-      </div>
-
-      <!-- price and time limit -->
-      <div class="card__meta">
-        <div class="nft-price">
-          <img src="images/icon-ethereum.svg" alt="eth icon">
-          <span>0.041 ETH</span>
-        </div>
-        <div class="nft-timelimit">
-          <img src="images/icon-clock.svg" alt="">
-          <span>3 days left</span>
-        </div>
-      </div>
+  <main>
+    <div class="card">
+      <img src="images/image-equilibrium.jpg" alt="nft">
       
-      <hr>
-      <!-- artist -->
-      <div class="card__artist">
-        <img src="images/image-avatar.png" alt="artist avatar"> <span>Creation of <span class="artist">Jules Wyvern</span></span>
+      <div class="card__details">
+        <!-- text -->
+        <section class="card__text">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </section>
+  
+        <!-- price and time limit -->
+        <section class="card__meta">
+          <div class="nft-price">
+            <img src="images/icon-ethereum.svg" alt="eth icon">
+            <span>0.041 ETH</span>
+          </div>
+          <div class="nft-timelimit">
+            <img src="images/icon-clock.svg" alt="">
+            <span>3 days left</span>
+          </div>
+        </section>
+        
+        <hr>
+
+        <!-- artist -->
+        <section class="card__artist">
+          <img src="images/image-avatar.png" alt="artist avatar"> <span>Creation of <span class="artist">Jules Wyvern</span></span>
+        </section>
       </div>
     </div>
-  </div>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
