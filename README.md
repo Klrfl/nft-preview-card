@@ -58,7 +58,7 @@ During this project, I read from this:
 ## Author
 
 - My GitHub profile - [Klrfl](https://www.github.com/Klrfl)
-- My Frontend Mentor profile - [@yourusername](https://www.frontendmentor.io/profile/Klrfl)
+- My Frontend Mentor profile - [@Klrfl](https://www.frontendmentor.io/profile/Klrfl)
 
 ## Acknowledgments
 
